@@ -11,7 +11,7 @@ const HomeScreen = () => {
 
     const handlePress = (paroquiaId) => {
         console.log('Navigating to Agenda with:', paroquiaId);
-        navigation.navigate('AgendaPage', { paroquiaId: paroquiaId });
+        navigation.navigate('Agenda', { paroquiaId: paroquiaId });
     };
 
     useEffect(() => {
